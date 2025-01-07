@@ -3,6 +3,7 @@ import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
 const FeatureList = [
+
   {
     title: 'What is ROS 2?',
     description: (
@@ -21,12 +22,39 @@ const FeatureList = [
       </>
     ),
   },
+
   {
-    title: 'Getting Started',
+    title: 'Understanding TFs',
     description: (
       <>
-        Start with the basics by installing ROS 2 on your system, exploring core concepts like nodes, topics, services, and actions, 
-        and building your first publisher-subscriber example. The learning curve is friendly for beginners.
+        Learn how to manage coordinate frames using ROS 2 TFs. 
+        Understand how transformations help in aligning robot components and integrating sensors, cameras, and robotic arms effectively.
+      </>
+    ),
+  },
+  {
+    title: 'Design with URDF',
+    description: (
+      <>
+        Master creating and visualizing robot models using URDF. 
+        Learn how to define links, joints, and inertial properties for your custom robot designs.
+      </>
+    ),
+  },
+  {
+    title: 'Visualization with RViz',
+    description: (
+      <>
+        Explore the power of RViz to visualize robot states, sensor data, and TFs in 3D. 
+        Create intuitive visual tools to debug and interact with your robots.
+      </>
+    ),
+  },
+  {
+    title: 'Simulate with Gazebo',
+    description: (
+      <>
+        Dive into simulation with Gazebo. Build dynamic environments to test robot behaviors, physics simulations, and motion algorithms before deploying to real hardware.
       </>
     ),
   },
