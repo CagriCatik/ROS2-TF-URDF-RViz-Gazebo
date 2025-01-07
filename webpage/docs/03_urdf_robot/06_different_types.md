@@ -1,1 +1,1 @@
-# Different Types of Joints in a URDF
+# Exploring Different Joint Types in URDF

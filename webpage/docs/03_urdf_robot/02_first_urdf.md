@@ -1,1 +1,1 @@
-# First URDF file: Create and Visualize a Link
+# Creating and Visualizing a Simple URDF Link

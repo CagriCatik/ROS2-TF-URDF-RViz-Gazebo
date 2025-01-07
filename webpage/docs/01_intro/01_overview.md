@@ -1,6 +1,6 @@
 # Overview
 
-This documentation provides an in-depth exploration of essential ROS2 concepts: **TF (Transform Frames)**, **URDF (Unified Robot Description Format)**, **RViz (Robot Visualization)**, and **Gazebo (Simulation Environment)**. The learning-path is designed to empower learners to design custom robotic applications and simulate robots efficiently. It is structured to guide users through the process step-by-step, emphasizing practical application and hands-on learning.
+This chapter provides an in-depth exploration of essential ROS2 concepts: TF (Transform Frames), URDF (Unified Robot Description Format), RViz (Robot Visualization), and Gazebo (Simulation Environment). The learning-path is designed to empower learners to design custom robotic applications and simulate robots efficiently. It is structured to guide users through the process step-by-step, emphasizing practical application and hands-on learning.
 
 ## Prerequisites
 Before proceeding, ensure you have a solid understanding of ROS2 basics, including:
@@ -20,13 +20,13 @@ By the end of this learning-path, you will:
 4. Add sensors and simulate complex environments.
 5. Develop and package robotic applications efficiently.
 
-This learning-path serves as a stepping stone for advanced ROS2 frameworks like **ROS2 Control**, **Navigation Stack**, and **MoveIt**.
+This learning-path serves as a stepping stone for advanced ROS2 frameworks like ROS2 Control, Navigation Stack, and MoveIt.
 
 ---
 
 ## Overview of Topics
 
-### **1. TF (Transform Frames)**
+### 1. TF (Transform Frames)
 
 #### Why TF is Important:
 TF provides a mechanism to track and manage the spatial relationships between various coordinate frames in a robot. It is crucial for tasks like:
@@ -35,16 +35,16 @@ TF provides a mechanism to track and manage the spatial relationships between va
 - Sensor integration.
 
 #### Key Concepts:
-- **Frames**: Define positions and orientations in 3D space.
-- **Transformations**: Describe the relative positions between frames.
-- **tf2 Library**: A ROS2 library for managing transformations.
+- Frames: Define positions and orientations in 3D space.
+- Transformations: Describe the relative positions between frames.
+- tf2 Library: A ROS2 library for managing transformations.
 
 #### Visualization:
-Use **RViz** to visualize TF frames, which helps debug spatial relationships in robotic systems.
+Use RViz to visualize TF frames, which helps debug spatial relationships in robotic systems.
 
 ---
 
-### **2. URDF (Unified Robot Description Format)**
+### 2. URDF (Unified Robot Description Format)
 
 #### Purpose of URDF:
 URDF defines the physical structure of a robot, including:
@@ -55,21 +55,21 @@ URDF defines the physical structure of a robot, including:
 - Inertia: Specify physical properties for accurate dynamics.
 
 #### Writing a URDF:
-- **XML Structure**: URDF files use an XML format.
-- **Tools**: Use tools like **xacro** to create modular and reusable URDFs.
-- **Best Practices**:
+- XML Structure: URDF files use an XML format.
+- Tools: Use tools like xacro to create modular and reusable URDFs.
+- Best Practices:
   - Start with a basic structure (base link and minimal joints).
-  - Validate your URDF with tools like **check_urdf**.
+  - Validate your URDF with tools like check_urdf.
 
 ---
 
-### **3. Simulating in Gazebo**
+### 3. Simulating in Gazebo
 
 #### Preparing for Simulation:
 To simulate a robot in Gazebo, extend the URDF to include:
-- **Collision Tags**: Define how the robot interacts with the environment.
-- **Inertia Tags**: Add mass and inertia for realistic dynamics.
-- **Plugins**: Configure Gazebo-specific behaviors like wheel control or sensor simulation.
+- Collision Tags: Define how the robot interacts with the environment.
+- Inertia Tags: Add mass and inertia for realistic dynamics.
+- Plugins: Configure Gazebo-specific behaviors like wheel control or sensor simulation.
 
 #### Steps:
 1. Convert URDF into a Gazebo-compatible format.
@@ -79,7 +79,7 @@ To simulate a robot in Gazebo, extend the URDF to include:
 
 ---
 
-### **4. Sensors and World Simulation**
+### 4. Sensors and World Simulation
 
 #### Adding Sensors:
 Simulate sensors like cameras, LiDAR, or IMUs by:
@@ -95,7 +95,7 @@ Enhance the robot’s environment by:
 
 ---
 
-### **5. Packaging and Launching**
+### 5. Packaging and Launching
 
 #### Creating a Robot Description Package:
 Organize your project into a ROS2 package containing:
@@ -104,19 +104,19 @@ Organize your project into a ROS2 package containing:
 - Configuration files for plugins and sensors.
 
 #### Launch Files:
-- Use **Python** or **XML** to write launch files.
+- Use Python or XML to write launch files.
 - Ensure reusability and modularity for different scenarios.
 
 ---
 
 ## Hands-On Projects
 
-### **Project 1: Mobile Robot Simulation**
+### Project 1: Mobile Robot Simulation
 1. Write a URDF for a differential-drive robot.
 2. Add Gazebo plugins to control the wheels.
 3. Simulate the robot navigating a predefined environment.
 
-### **Project 2: Robotic Arm Simulation**
+### Project 2: Robotic Arm Simulation
 1. Design a URDF for a 6-DOF robotic arm.
 2. Configure the robot for Gazebo simulation.
 3. Add sensors like cameras to the arm’s end effector.
@@ -124,12 +124,12 @@ Organize your project into a ROS2 package containing:
 ---
 
 ## Tips for Success
-1. **Follow a Structured Approach**: Complete each section in order to build foundational knowledge.
-2. **Practice Hands-On**: Write code alongside the tutorial and experiment with configurations.
-3. **Leverage Debugging Tools**:
-   - Use **RViz** to visualize TF frames and sensor data.
-   - Debug URDF issues with tools like **check_urdf**.
-4. **Stay Curious**: Explore advanced topics like ROS2 Control or Navigation Stack as follow-ups.
+1. Follow a Structured Approach: Complete each section in order to build foundational knowledge.
+2. Practice Hands-On: Write code alongside the tutorial and experiment with configurations.
+3. Leverage Debugging Tools:
+   - Use RViz to visualize TF frames and sensor data.
+   - Debug URDF issues with tools like check_urdf.
+4. Stay Curious: Explore advanced topics like ROS2 Control or Navigation Stack as follow-ups.
 
 ---
 

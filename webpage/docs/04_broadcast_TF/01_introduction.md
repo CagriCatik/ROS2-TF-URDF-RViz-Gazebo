@@ -1,1 +1,1 @@
-# How the Robot State Publisher and URDF Work Together
+# Integrating the Robot State Publisher with URDF

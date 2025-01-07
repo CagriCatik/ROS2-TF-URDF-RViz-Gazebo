@@ -1,0 +1,1 @@
+# Quick Fixes for Camera Functionality in ROS

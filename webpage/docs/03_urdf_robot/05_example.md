@@ -1,1 +1,1 @@
-# Another example of the process to write the URDF right the first time
+# Writing URDF Correctly from the Start: Step-by-Step Example

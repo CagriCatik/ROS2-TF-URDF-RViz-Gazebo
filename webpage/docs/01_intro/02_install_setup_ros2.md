@@ -1,11 +1,11 @@
 # Install and Setup ROS2
 
 ## Prerequisites
-To follow this part, you need to have **Ubuntu 22.04** installed. This section provides a quick recap of the installation process to ensure you’re ready to proceed.
+To follow this part, you need to have Ubuntu 22.04 installed. This section provides a quick recap of the installation process to ensure you’re ready to proceed.
 
 ### Recommended Setup
-1. **Dual Boot**: Install Ubuntu alongside your primary OS (e.g., Windows or macOS). This setup ensures seamless compatibility with ROS2 and tools like Gazebo.
-2. **Virtual Machine (Optional)**: If dual boot is not feasible, use **VMware Workstation**. Avoid VirtualBox for this course as it performs poorly with 3D simulation tools like Gazebo.
+1. Dual Boot: Install Ubuntu alongside your primary OS (e.g., Windows or macOS). This setup ensures seamless compatibility with ROS2 and tools like Gazebo.
+2. Virtual Machine (Optional): If dual boot is not feasible, use VMware Workstation. Avoid VirtualBox for this course as it performs poorly with 3D simulation tools like Gazebo.
 
 ---
 
@@ -84,8 +84,8 @@ Ensure Gazebo runs correctly on your system:
    - If it is below 10 FPS, your system might lack sufficient resources or you are using a virtual machine.
 
 ### Troubleshooting
-- **Low Performance**: Switch to a dual boot setup or upgrade your hardware if necessary.
-- **Unsupported Systems**: Avoid running Gazebo on embedded systems like Raspberry Pi.
+- Low Performance: Switch to a dual boot setup or upgrade your hardware if necessary.
+- Unsupported Systems: Avoid running Gazebo on embedded systems like Raspberry Pi.
 
 ---
 

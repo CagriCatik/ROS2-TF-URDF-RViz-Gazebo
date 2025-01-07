@@ -1,0 +1,1 @@
+# Integrating Gazebo Plugins for the Camera

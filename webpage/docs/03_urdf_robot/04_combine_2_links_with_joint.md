@@ -1,1 +1,1 @@
-# Combine Links with a Joint
+# Connecting Links Using Joints
