@@ -1,0 +1,1 @@
+# How the Robot State Publisher and URDF Work Together

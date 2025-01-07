@@ -1,0 +1,1 @@
+# Run the Robot State Publisher with URDF in the Terminal (Command Line)

@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'ROS2 TF | URDF | RViz | Gazebo',
+  tagline: 'Understand TFs, Design a custom robot with URDF, Simulate the robot in Gazebo!',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -76,7 +76,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: '',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -84,9 +84,45 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'introSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Introduction',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'transformSidebar',
+            position: 'left',
+            label: 'TF Overview',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'urdfSidebar',
+            position: 'left',
+            label: 'URDF',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'broadcastSidebar',
+            position: 'left',
+            label: 'Broadcast TF',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'urdfXacroSidebar',
+            position: 'left',
+            label: 'URDF with Xacro',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'gazeboXacroSidebar',
+            position: 'left',
+            label: 'Gazebo',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'sensorXacroSidebar',
+            position: 'left',
+            label: 'Add Sensor',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
